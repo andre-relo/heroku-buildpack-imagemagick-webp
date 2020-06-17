@@ -14,7 +14,7 @@ heroku buildpacks -a appname
 
 Add this buildpack to your app (specify hash to lock down verison):
 ```
-heroku buildpacks:add https://github.com/maximusdominus/heroku-buildpack-imagemagick-webp.git#abc123 -a appname
+heroku buildpacks:add https://github.com/andre-relo/heroku-buildpack-imagemagick-webp.git#abc123 -a appname
 ```
 
 
@@ -60,7 +60,7 @@ Add this buildpack to your [app.json](https://devcenter.heroku.com/articles/app-
       "buildpacks": [
         { "url": "heroku/ruby" },
         ...
-        { "url": "https://github.com/maximusdominus/heroku-buildpack-imagemagick-webp.git#abc123"}
+        { "url": "https://github.com/andre-relo/heroku-buildpack-imagemagick-webp.git#abc123"}
       ],
       "addons": [
         ...
